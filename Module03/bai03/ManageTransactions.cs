@@ -8,10 +8,10 @@ namespace Module03.bai03
     {
 
         //instance fields 
-        private string Magiaodich;
-        private DateTime Ngaygiaodich;
-        protected double Dongia;
-        protected int Soluong;
+        public string Magiaodich { get; set; }
+        public DateTime Ngaygiaodich { get; set; }
+        public double Dongia { get; set; }
+        public int Soluong { get; set; }
 
         //constructor 
         public ManageTransactions(string magiaodich, DateTime ngaygiaodich, double dongia, int soluong)

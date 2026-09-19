@@ -9,11 +9,11 @@ namespace Module03.bai04
     {
 
         //instrance fields
-        private string maSach { get; set; }
-        private DateTime ngayNhap { get; set; }
-        protected double dongia { get; set; }
-        protected int soLuong { get; set; }
-        private string nhaXuatBan { get; set; }
+        public string maSach { get; set; }
+        public DateTime ngayNhap { get; set; }
+        public double dongia { get; set; }
+        public int soLuong { get; set; }
+        public string nhaXuatBan { get; set; }
         //constructor
         public Books(string maSach, DateTime ngayNhap, double dongia, int soLuong, string nhaXuatBan)
         {
@@ -31,7 +31,7 @@ namespace Module03.bai04
     public class Sachgiaokhoa : Books
     {
         //attributes
-        private bool tinhTrang { get; set; }
+        public bool tinhTrang { get; set; }
         public Sachgiaokhoa(string maSach, DateTime ngayNhap, double dongia, int soLuong, string nhaXuatBan, bool tinhTrang) : base(maSach, ngayNhap, dongia, soLuong, nhaXuatBan)
         {
             this.tinhTrang = tinhTrang;
@@ -60,7 +60,7 @@ namespace Module03.bai04
     public class Sachthamkhao : Books
     {
         //attributes
-        protected double thue { get; set; }
+        public double thue { get; set; }
         //constructor 
         public Sachthamkhao(string maSach, DateTime ngayNhap, double dongia, int soLuong, string nhaXuatBan, double thue) : base(maSach, ngayNhap, dongia, soLuong, nhaXuatBan)
         {

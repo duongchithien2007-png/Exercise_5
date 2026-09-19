@@ -14,11 +14,11 @@ class Program
         //Add some trip objects to the list
         List<Quanlichuyenxe> trips = new List<Quanlichuyenxe>();
         //Create 2 object of Chuyenxenoithanh class
-        Quanlichuyenxe trip1 = new Chuyenxenoithanh("CX001", "Cristiano Ronaldo G.O.A.T", "29A-12345", 1000000, "Tuyen 1", 50);
-        Quanlichuyenxe trip2 = new Chuyenxenoithanh("CX002", "Lionel Peppsi", "29B-67890", 1500000, "Tuyen 2", 60);
+        Chuyenxenoithanh trip1 = new Chuyenxenoithanh("CX001", "Cristiano Ronaldo G.O.A.T", "29A-12345", 1000000, "Tuyen 1", 50);
+        Chuyenxenoithanh trip2 = new Chuyenxenoithanh("CX002", "Lionel Peppsi", "29B-67890", 1500000, "Tuyen 2", 60);
         //Create 2 object of Chuyenxengoaithanh class
-        Quanlichuyenxe trip3 = new Chuyenxengoaithanh("CX003", "Nguyễn Công Phúng", "29C-54321", 2000000, "TP HCM", 5);
-        Quanlichuyenxe trip4 = new Chuyenxengoaithanh("CX004", "Ky Ly Ân Em Pé Ba", "29D-98765", 2500000, "Ha Noi", 10);
+        Chuyenxengoaithanh trip3 = new Chuyenxengoaithanh("CX003", "Nguyễn Công Phúng", "29C-54321", 2000000, "TP HCM", 5);
+        Chuyenxengoaithanh trip4 = new Chuyenxengoaithanh("CX004", "Ky Ly Ân Em Pé Ba", "29D-98765", 2500000, "Ha Noi", 10);
 
         trips.Add(trip1);
         trips.Add(trip2);

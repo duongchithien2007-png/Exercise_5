@@ -7,11 +7,11 @@ namespace Module03.bai02
     public class ThelibraryX
     {
         // instance fields 
-        private string Masach;
-        private DateTime Ngaynhap;
-        protected double Dongia;
-        protected int Soluong;
-        private string Nhaxuatban;
+        public string Masach { get; set; }
+        public DateTime Ngaynhap { get; set; }
+        public double Dongia { get; set; }
+        public int Soluong { get; set; }
+        public string Nhaxuatban { get; set; }
         //Constructor
         public ThelibraryX(string masach, DateTime ngaynhap, double dongia, int soluong, string nhaxuatban)
         {
@@ -53,7 +53,7 @@ namespace Module03.bai02
     public class SachThamKhao : ThelibraryX
     {
         //instance fields
-        private double Thue;
+        public double Thue { get; set; }
         //Constructor
         public SachThamKhao(string masach, DateTime ngaynhap, double dongia, int soluong, string nhaxuatban, double thue) : base(masach, ngaynhap, dongia, soluong, nhaxuatban)
         {

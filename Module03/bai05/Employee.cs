@@ -9,8 +9,8 @@ namespace Module03.bai05
     public abstract class Employee
     {
         //instance fields
-        private string Firstname;
-        private string Lastname;
+        public string Firstname;
+        public string Lastname;
         private string Socialsecuritynumber;
         //constructor
         public Employee(string firstname, string lastname, string SSN)
